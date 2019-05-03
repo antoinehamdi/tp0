@@ -1,6 +1,6 @@
 pipeline {
     	agent {
-    		label "vagrant"
+    		label "master"
     }
 	options {
 		timestamps()
