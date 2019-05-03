@@ -10,6 +10,7 @@ pipeline {
 			steps {
 
         	echo 'Deploying to test'
+        	sh 'ansible-galaxy install -r roles/requirements.yml'
         	sh 'ansible-playbook -i inventory.ini install_tools.yml'
 
     }
