@@ -7,7 +7,7 @@
     - vars/main.yml
 
   roles:
-    - geerlingguy.firewall
+    - copy_myssh_key
     - geerlingguy.ntp
     - geerlingguy.git
     - geerlingguy.java
